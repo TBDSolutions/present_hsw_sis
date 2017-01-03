@@ -1,0 +1,43 @@
+---
+title: Eh?
+author: Using Data to Inform Management, Advocacy, etc.
+output:
+  revealjs::revealjs_presentation:
+    theme: night
+    #opts {default,simple,sky,serif,solarized,moon,night}
+    highlight: zenburn 
+    #opts {default,tango,pygments,kate,monochrome,espresso,zenburn,haddock}
+    center: true
+---
+
+# Overview 
+
+## First point {data-background=#073642}
+
+## Second point 
+
+# Specific Applications
+
+## Finding Profiles of Need
+
+## Identifying prospective HSW candidates
+
+## Integrating assessments into Person-Centered Planning
+
+# Next Steps
+
+## Do this
+
+## Also this
+
+# ☂ Challenges
+
+
+# ✎ By...
+
+----
+
+![](tbdSolutions-logo.png)
+
+## ☀ ☼ ☁ ☂ ★ ☎ ☑ ☔ ☤ ☺ ☻ ♡ ♥ ♺ ♻
+## ↺ ≅ ⊞ ⊷  ▦  ► ◀ ◉ ◍ ◎ ◐ ✿❆❉ ☛

@@ -1,0 +1,7 @@
+name: "HSW SIS Presentation"
+output_dir: "."
+navbar:
+  title: "HSW SIS Presentation"
+  left:
+    - text: "About"
+      href: present_hsw_sis.html
