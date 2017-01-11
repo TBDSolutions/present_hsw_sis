@@ -16,13 +16,41 @@ output:
 
 ## Second point 
 
-# Specific Applications
+# Can we trust the data?
 
-## Finding Profiles of Need
+## Completeness
+
+## Things data will never do...
+
+> - push your children on the swingset
+> - suffer with you through hardships
+> - be beautifully, resolutely illogical
+
+But we can use it to create more complex models of the incredible people we serve.
+
+## We trust a lot of other things
+
+## Stay skeptical (of yourself, too)
+
+- Logic is a pre-requisite for using data
+
+# Who should we help?
 
 ## Identifying prospective HSW candidates
 
+## Caveat: Not meant to limit access
+
+# How can we help them?
+
+## Listen!
+
 ## Integrating assessments into Person-Centered Planning
+
+## Finding Profiles of Need
+
+Complexity v. Severity
+severe developmental disabilities
+- While we often talk about level of severity (as though a person was more like a neat pile than a regeode).  We do this because it "gets people in the door" but it is far from truly knowing someone.  (as though a handshake were the same as a friendship)
 
 # Next Steps
 
@@ -31,7 +59,6 @@ output:
 ## Also this
 
 # ☂ Challenges
-
 
 # ✎ By...
 
