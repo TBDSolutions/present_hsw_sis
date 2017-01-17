@@ -1,20 +1,54 @@
 ---
-title: Eh?
+title: Knowing Ourselves
 author: Using Data to Inform Management, Advocacy, etc.
 output:
   revealjs::revealjs_presentation:
     theme: night
-    #opts {default,simple,sky,serif,solarized,moon,night}
     highlight: zenburn 
-    #opts {default,tango,pygments,kate,monochrome,espresso,zenburn,haddock}
     center: true
 ---
 
-# Overview 
+# Self-determination 
 
-## First point {data-background=#073642}
+## includes...
 
-## Second point 
+> - self-awareness
+> - goal setting
+> - decision making
+> - problem solving 
+> - self-advocacy
+
+## How measurement can fit in
+
+- self-awareness : *understanding patterns*
+
+- goal setting : *connect needs to hopes*
+
+- decision making
+
+- problem solving 
+
+- self-advocacy : *use a common language*
+
+## 
+
+Measures have been with us since the dawn of culture.
+
+## We change. {data-background=#5b7335}
+
+We pencil marks on doorways to track our growth, and then our children’s growth. We want to change for the better, to know that we are moving toward our goals.
+
+## We are habitual. {data-background=#536a6e}
+
+We fall into patterns, both beautiful and destructive. Math is the science of patterns and analyzing these can help us to understand ourselves.
+
+## We want to understand. {data-background=#3a3c21}
+
+We want to know the causes of things; how we are broken and how we might become whole again. We want our knowledge to be concrete, to be tangible.
+
+## We are relational. {data-background=#ab4434}
+
+We exist in context, in proportion. We share stories about our similar experiences. We want to measure ourselves against each other and against our own pasts.
 
 # Can we trust the data?
 
