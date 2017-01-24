@@ -19,7 +19,15 @@ background-image: url(https://s-media-cache-ak0.pinimg.com/originals/51/fb/fd/51
 ---
 class: inverse, center, middle
 
+# ✋
 # Why measure?
+
+???
+
+- People often talk as if measurement is dehumanizing, but it's an ancient activity
+- Since ancient Babylon/Egypt
+- Length was first measured with the body itself (forearm, hand, or finger)
+- It is one of the ways we relate to the world we live in
 
 ---
 class: center, middle
@@ -41,7 +49,7 @@ class: center, middle
 class: center, middle
 
 # ◎
-## We want to understand
+## We are curious
 
 *We want to know the causes of things; how things fit together. We want our knowledge to be concrete, to be tangible.*
 
@@ -52,6 +60,9 @@ class: center, middle
 ## We are relational
 
 *We exist in context, in proportion. We share stories about our similar experiences. We want to measure ourselves against each other and against our own pasts.*
+
+---
+background-image: url(https://phys.org/newman/gfx/news/hires/2015/1-astronomerst.jpg)
 
 ---
 class: inverse, center, middle
@@ -66,6 +77,18 @@ class: inverse, center, middle
 - Only measures have been in PT, OT
 - SIS moves field into a more sophisticated approach to assessment
 
+---
+class: inverse, center, middle
+
+> ### ...while a single glance may suffice 
+> ### for clinical diagnosis, if we hope to 
+> ### understand the... individual, nothing 
+> ### less than a total biography will do.
+
+.pull-right[
+Oliver Sacks, *An Anthropologist on Mars*
+]
+
 
 ---
 class: inverse, center, middle
@@ -76,6 +99,7 @@ class: inverse, center, middle
 
 ???
 
+- Understanding is not enough if it is not used to help
 - Linking history/observation to action... 
 - Creates common language that frames history and helps to imagine a future for the person
 - Assessors role is an objective, point-in-time picture [viz: photograph]
@@ -98,27 +122,60 @@ includes...
 .pull-right[
 *supported by...*
 - *understanding patterns*
-- *connect needs to hopes*
-- 
-- 
+- *transform needs to hopes*
+- *clearly frame options*
+- *quantify what's possible*
 - *use a common language*
 ]
 
 ???
 
+---
+
+## Including 
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+needs <- read.csv("C:/Users/joshh/Documents/GitHub/exploreSIS_node_mshn/data/needs.csv")
+```
+
+The *Supports Intensity Scale* assessment includes the following areas: `r paste(unique(needs$section_desc),sep = '',collapse = ', ')`
+
+Here's a list of all the fields in each area:
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+needs %>%
+  select(section_desc, item_desc) %>%
+  DT::datatable(
+    rownames = FALSE,
+    colnames = c('Section Name','Item Name'),
+    fillContainer = FALSE, 
+    extensions = 'Scroller',
+    options = list(#pageLength = 5, 
+                   dom = 't',
+                   deferRender = F,
+                   scrollY = 200,
+                   scroller = TRUE))
+```
 
 
 ---
 
-### What doesn't data do?
+## Data ~~Driven~~ Informed
+
+The assessment does **not** prescribe:
 
 - Which staff members will support the person? 
-- Which supports could help meet these needs?
+- Which supports should help meet these needs?
 - What setting should services be provided in?
 
 ???
 
 Compare 
+"All models are wrong, but some are useful" - George Box
+Residuals viz: https://www.r-bloggers.com/visualising-residuals/
+Not all individuals fit into our ideas / preconceptions
+BUT, using data is a way of keeping our ideas accountable to the facts
+
 
 ---
 
@@ -132,5 +189,6 @@ Compare
 This is the ideal, now let's take time to understand where we are today:
 - Commence focus group
 
-
+---
+background-image: url(http://www.tbdsolutions.com/wp-content/themes/tbdsolutions/images/logo.png)
 
