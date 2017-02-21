@@ -16,11 +16,16 @@ options(htmltools.dir.version = FALSE)
 
 background-image: url(https://s-media-cache-ak0.pinimg.com/originals/51/fb/fd/51fbfdeb797a21c36b3d928a17867803.jpg)
 
----
-class: inverse, center, middle
+???
 
-# ✋
-# Why measure?
+- Great art project which had all attendees mark their height on a wall, until the names covered each other up.
+- Data is made up of individuals, and measurement based care will fail if it does not make information meaningful at the individual level as well as in the aggregate.
+
+---
+background-image: url(http://www.publicdomainpictures.net/pictures/180000/velka/hand-on-white-1465803361587.jpg)
+background-size: contain
+
+# ✋ Why measure?
 
 ???
 
@@ -30,12 +35,13 @@ class: inverse, center, middle
 - It is one of the ways we relate to the world we live in
 
 ---
-class: center, middle
+class: inverse, center, bottom
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b3/Water_texture_1390894_Nevit.jpg)
+background-size: contain
 
-# ≋
-## We change. 
+# ≋ We change. 
 
-*We pencil marks on doorways to track our growth, and then our children’s growth. We want to change for the better, to know that we are moving toward our goals.*
+### *We pencil marks on doorways to track our growth, and then our children’s growth. We want to change for the better, to know that we are moving toward our goals.*
 
 ???
 
@@ -43,12 +49,13 @@ class: center, middle
 - Even in a habilitative context, there are changes in supports, preferences, personal priorities.
 
 ---
-class: center, middle
+class: inverse, center, bottom
+background-image: url(https://static.pexels.com/photos/8408/player-vinyl.jpg)
+background-size: contain
 
-# ♻
-## We are habitual. 
+# ♻ We are habitual. 
 
-*We fall into patterns, both beautiful and destructive. Math is the science of patterns and analyzing these can help us to understand ourselves.*
+### *We fall into patterns, both beautiful and destructive. Math is the science of patterns and analyzing these can help us to understand ourselves.*
 
 ???
 
@@ -57,12 +64,13 @@ class: center, middle
 - Example: people with aging parents.  What clusters of needs do they have and is the provider network equipped to provide for and coordinate those needs?
 
 ---
-class: center, middle
+class: inverse, center, bottom
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/1814ThompsonMap.jpg/1280px-1814ThompsonMap.jpg)
+background-size: contain
 
-# ◎
-## We are curious
+# ◎ We are curious
 
-*We want to know the causes of things; how things fit together. We want our knowledge to be concrete, to be tangible.*
+### *We want to know the causes of things; how things fit together. We want our knowledge to be concrete, to be tangible.*
 
 ???
 
@@ -70,25 +78,24 @@ class: center, middle
 - Not content with anecdotes alone, we seek other objective ways of understanding the impact of our lives' work
 
 ---
-class: center, middle
+class: inverse, center, bottom
+background-image: url(http://maxpixel.freegreatpicture.com/static/photo/1x/Holding-Hands-Circle-Of-Friends-858005.jpg)
+background-size: contain
 
-# ☍
-## We are relational
+# ☍ We are relational
 
-*We exist in context, in proportion. We share stories about our similar experiences. We want to measure ourselves against each other and against our own pasts.*
+### *We exist in context, in proportion. We share stories about our similar experiences. We want to measure ourselves against each other and against our own pasts.*
 
 ???
 
 - Benchmarking, analysis of variance, clustering: any of these is just a fancy term for admitting that we understand ourselves in relationship to others.
 
 ---
-background-image: url(https://phys.org/newman/gfx/news/hires/2015/1-astronomerst.jpg)
-
----
 class: inverse, center, middle
+background-image: url(https://c1.staticflickr.com/4/3298/3455044234_6397794593_b.jpg)
+background-size: contain
 
-# ⏪
-## How we got here
+# ⏪  How we got here
 
 ???
 
@@ -124,8 +131,9 @@ Reality check:
 - Assessment should be practical and applied rather than put on a shelf
 
 ---
-class: inverse, center, middle
-
+class: center, top
+background-image: url(https://c1.staticflickr.com/5/4116/4889471879_ce34dcbd0a_b.jpg)
+background-size: contain
 # ▤  ▶  ☑
 
 ### *story into action*
@@ -139,6 +147,9 @@ class: inverse, center, middle
 
 
 ---
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5d/Minnesota_State_Capitol_Woodworkers_Toolbox_Historical_Society.jpg)
+background-size: 400px
+background-position: 50% 90%
 
 # Self-determination 
 
@@ -242,6 +253,9 @@ Residuals viz derived from: https://www.r-bloggers.com/visualising-residuals/
 
 ---
 class: center, middle
+background-image: url(http://www.publicdomainpictures.net/pictures/180000/velka/fence-from-ice-stick.jpg)
+background-size: 500px
+background-position: 50% 100%
 
 ## Data ~~Driven~~ Informed
 
@@ -324,6 +338,8 @@ leaflet() %>%
 
 ---
 class: inverse, center, middle
+background-image: url(http://www.publicdomainpictures.net/pictures/20000/velka/out-of-focus-christmas-lights-110661300064982U8c.jpg)
+background-size: contain
 
 # And... Focus
 
