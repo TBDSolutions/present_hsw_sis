@@ -349,5 +349,21 @@ background-size: contain
 # And... Focus
 
 ---
+class: center, middle
+
+# What has your experience been?
+
+---
+class: center, middle
+
+# How do you currently use it?
+
+---
+class: center, middle
+
+# How can it be used?
+### At the individual, program and system levels
+
+---
 background-image: url(http://www.tbdsolutions.com/wp-content/themes/tbdsolutions/images/logo.png)
 
