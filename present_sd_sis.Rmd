@@ -13,8 +13,10 @@ output:
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 ```
-
+class: inverse, center, bottom
 background-image: url(https://s-media-cache-ak0.pinimg.com/originals/51/fb/fd/51fbfdeb797a21c36b3d928a17867803.jpg)
+
+[bit.ly/sd_assess](bit.ly/sd_assess)
 
 ???
 
@@ -61,6 +63,7 @@ background-size: contain
 
 - A wise approach to working with populations balances hope for the future with a realistic look at the past.
 - If we know that people will continue to have similar clusters of concerns, how can be be forward thinking in preparing the provider network to meet their needs?
+- Need to understand habits to manage change.  **If you are trying to change weight/spending/etc. do you (a) stop measuring it or (b) measure it more purposefully?**
 - Example: people with aging parents.  What clusters of needs do they have and is the provider network equipped to provide for and coordinate those needs?
 
 ---
@@ -99,10 +102,14 @@ background-size: contain
 
 ???
 
-- History of Assessment
+- History of Assessment (think DSM-1 era, very clinician centered, low reliability)
 - Current psychosocial is often histories
-- Only measures have been in PT, OT
+- Most common measures have been physical: used in PT, OT
 - SIS moves field into a more sophisticated approach to assessment, allowing real-world needs to be integrated into a structured assessment process
+
+Common terminology can lead to:
+- better communication (e.g. **imagine new supports coordinator inheriting caseload**)
+- greater equity (e.g. **if diagnosis is left to personal bias it has historically varied based on race, gender, etc.**)
 
 ---
 class: inverse, center, middle
@@ -169,7 +176,7 @@ includes...
 - *understanding patterns*
 - *transform needs to hopes*
 - *clearly frame options*
-- *quantify what's possible*
+- *generate tangible ideas*
 - *use a common language*
 ]
 
@@ -241,12 +248,10 @@ ggplot(d, aes(x = hp, y = mpg)) +
 
 - *All models are wrong*: a simplication of reality
 - How many of you have used a map?
-
 - The chart shows a simple generalization (linear model, depicted by line) of how a group of people (depicted by points) are related to each other based on scores across 2 measures (x-axis, y-axis)
 - Yet we can see that, while some individuals fit this generalization, some are farther away from it (marked in red)
 - Not all individuals fit into our ideas / preconceptions
 - BUT, using data is a way of keeping our ideas accountable to the facts
-
 - Would you rather draw a line at random, based on your own preconceptions?
 
 Residuals viz derived from: https://www.r-bloggers.com/visualising-residuals/
@@ -342,8 +347,6 @@ background-image: url(http://www.publicdomainpictures.net/pictures/20000/velka/o
 background-size: contain
 
 # And... Focus
-
-### This is the ideal, now let's take time to understand where we are today
 
 ---
 background-image: url(http://www.tbdsolutions.com/wp-content/themes/tbdsolutions/images/logo.png)
