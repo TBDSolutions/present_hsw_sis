@@ -22,6 +22,7 @@ background-image: url(https://s-media-cache-ak0.pinimg.com/originals/51/fb/fd/51
 
 - Great art project which had all attendees mark their height on a wall, until the names covered each other up.
 - Data is made up of individuals, and measurement based care will fail if it does not make information meaningful at the individual level as well as in the aggregate.
+- During the presentation, we will: a) discuss principles informing the use of individual assessment data to inform decisions at the system, provider and individual levels of focus; b) summarize some initial, interactive analyses made available for exploration of SIS data; and c) review findings from statewide survey and focus groups regarding the uses of SIS data. Participants will be able to: 1. Describe 
 
 ---
 background-image: url(http://www.publicdomainpictures.net/pictures/180000/velka/hand-on-white-1465803361587.jpg)
@@ -73,10 +74,11 @@ background-size: contain
 
 # ◎ We are curious
 
-### *We want to know the causes of things; how things fit together. We want our knowledge to be concrete, to be tangible.*
+### *We want to know the causes of things; how they fit together. We want our knowledge to be concrete, to be tangible.*
 
 ???
 
+- We cannot settle for the simple account which bleaches out the complexities of our experiences.
 - We love stories, but we want to be able to multiply those stories to make needs tangible to legislators and others who allocate resources for supports and services
 - Not content with anecdotes alone, we seek other objective ways of understanding the impact of our lives' work
 
@@ -107,82 +109,9 @@ background-size: contain
 - Most common measures have been physical: used in PT, OT
 - SIS moves field into a more sophisticated approach to assessment, allowing real-world needs to be integrated into a structured assessment process
 
-Common terminology can lead to:
+It also serves as common terminology, which can lead to:
 - better communication (e.g. **imagine new supports coordinator inheriting caseload**)
 - greater equity (e.g. **if diagnosis is left to personal bias it has historically varied based on race, gender, etc.**)
-
----
-class: inverse, center, middle
-background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSCimIGh2bXV7uYWnw_0cbwfVpoJXITfjKZM6KQBXaQ04cQFgXI)
-background-size: 150px
-background-position: 8% 90%
-
-> ### ...while a single glance may suffice 
-> ### for clinical diagnosis, if we hope to 
-> ### understand the... individual, nothing 
-> ### less than a total biography will do.
-
-.pull-right[
-Oliver Sacks, *An Anthropologist on Mars*
-]
-
-???
-
-- Quote from neurologist Oliver Sacks essays on autism
-
-Reality check: 
-- an assessment cannot encapsulate an entire person
-- Assessors role is an objective, point-in-time picture [viz: photograph]
-
-- Yet we must act to support people based on knowledge that is always partial, yet growing
-- Assessment should be practical and applied rather than put on a shelf
-
----
-class: center, top
-background-image: url(https://c1.staticflickr.com/5/4116/4889471879_ce34dcbd0a_b.jpg)
-background-size: contain
-# ▤  ▶  ☑
-
-### *story into action*
-
-???
-
-- Understanding is not enough if it is not used to help
-- Linking history/observation to action... 
-- Creates common language that frames history and helps to imagine a future for the person
-- Let's look at a few examples...
-
-
----
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5d/Minnesota_State_Capitol_Woodworkers_Toolbox_Historical_Society.jpg)
-background-size: 400px
-background-position: 50% 90%
-
-# Self-determination 
-
-.pull-left[
-includes...
-- self-awareness
-- goal setting
-- decision making
-- problem solving 
-- self-advocacy
-]
-
---
-
-.pull-right[
-*supported by...*
-- *understanding patterns*
-- *transform needs to hopes*
-- *clearly frame options*
-- *generate tangible ideas*
-- *use a common language*
-]
-
-???
-
-- Core components of self-determination... and how data from the assessment might be used to complement these...
 
 ---
 
@@ -211,68 +140,49 @@ needs %>%
                    scroller = TRUE))
 ```
 
-
 ---
-class: center, middle
+class: inverse, center, middle
+background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSCimIGh2bXV7uYWnw_0cbwfVpoJXITfjKZM6KQBXaQ04cQFgXI)
+background-size: 150px
+background-position: 8% 90%
 
-## Data ~~Driven~~ Informed
-
-### *All models are wrong... some are useful.* 
+> ### "...while a single glance may suffice for clinical diagnosis, if we hope to understand the... individual, nothing less than a total biography will do."
 
 .pull-right[
-George Box
+Oliver Sacks, *An Anthropologist on Mars*
 ]
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.height=3}
-library(ggplot2)
-
-d <- mtcars
-fit <- lm(mpg ~ hp, data = d)
-d$predicted <- predict(fit)   # Save the predicted values
-d$residuals <- residuals(fit) # Save the residual values
-
-ggplot(d, aes(x = hp, y = mpg)) +
-  geom_smooth(method = "lm", se = FALSE, color = "lightgrey") +
-  geom_segment(aes(xend = hp, yend = predicted), alpha = .2) +
-  # > Color adjustments made here...
-  geom_point(aes(color = abs(residuals))) + # Color mapped to abs(residuals)
-  scale_color_continuous(low = "black", high = "red") +  # Colors to use here
-  labs(x = "Measure A", y = "Measure B") +
-  guides(color = FALSE) +  # Color legend removed
-  geom_point(aes(y = predicted), shape = 1) +
-  theme_bw()
-
-```
 
 ???
 
-- *All models are wrong*: a simplication of reality
-- How many of you have used a map?
-- The chart shows a simple generalization (linear model, depicted by line) of how a group of people (depicted by points) are related to each other based on scores across 2 measures (x-axis, y-axis)
-- Yet we can see that, while some individuals fit this generalization, some are farther away from it (marked in red)
-- Not all individuals fit into our ideas / preconceptions
-- BUT, using data is a way of keeping our ideas accountable to the facts
-- Would you rather draw a line at random, based on your own preconceptions?
+- Quote from neurologist Oliver Sacks' essays on autism
 
-Residuals viz derived from: https://www.r-bloggers.com/visualising-residuals/
+Reality check: 
+- an assessment cannot encapsulate an entire person
+- Assessors role is an objective, point-in-time picture [viz: photograph]
+
+- Yet we must act to support people based on knowledge that is always partial, yet growing
+- Assessment should be practical and applied rather than put on a shelf
 
 ---
-class: center, middle
-background-image: url(http://www.publicdomainpictures.net/pictures/180000/velka/fence-from-ice-stick.jpg)
-background-size: 500px
-background-position: 50% 100%
+class: center, top
+background-image: url(https://c1.staticflickr.com/5/4116/4889471879_ce34dcbd0a_b.jpg)
+background-size: contain
+# ▤  ▶  ☑
 
-## Data ~~Driven~~ Informed
+### *story into action*
 
-The assessment does **not** prescribe:
+???
 
-- Which staff members will support the person? 
-- Which supports should help meet these needs?
-- What setting should services be provided in?
+- Understanding is not enough if it is not used to help
+- Linking history/observation to action... 
+- Creates common language that frames history and helps to imagine a future for the person
 
---
-
-*In short*: it is meant to be used **by** people, **not** instead of people
+Different roles across the system will have different uses for the data:
+- in Person-Centered Planning
+- in Benefit Management
+- to Assure Service Access and Equity
+- to Understand Population-level Needs
+- in Advocacy efforts
 
 ---
 class: inverse, center, middle
@@ -280,7 +190,7 @@ class: inverse, center, middle
 # Practical Uses
 
 ### Connecting to Person-Centered Planning
-```{r eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE, out.height=3}
+```{r eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE, out.width='100%',out.height=3}
 library(dplyr); library(DT); library(RColorBrewer)
 
 DT_in <- read.csv("df.csv")
@@ -342,27 +252,117 @@ leaflet() %>%
 - What if we could identify the geographic areas where people with a certain set of needs were clustered, so that we could build services to be more easily accessible to the people who need them?
 
 ---
-class: inverse, center, middle
-background-image: url(http://www.publicdomainpictures.net/pictures/20000/velka/out-of-focus-christmas-lights-110661300064982U8c.jpg)
-background-size: contain
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5d/Minnesota_State_Capitol_Woodworkers_Toolbox_Historical_Society.jpg)
+background-size: 400px
+background-position: 50% 90%
 
-# And... Focus
+# Self-determination 
+
+.pull-left[
+includes...
+- self-awareness
+- goal setting
+- decision making
+- problem solving 
+- self-advocacy
+]
+
+--
+
+.pull-right[
+*supported by...*
+- *understanding patterns*
+- *transform needs to hopes*
+- *clearly frame options*
+- *generate tangible ideas*
+- *use a common language*
+]
+
+???
+
+- Core components of self-determination... and how data from the assessment might be used to complement these...
 
 ---
 class: center, middle
 
-# What has your experience been?
+# Data ~~Driven~~ Informed
+
+### *All models are wrong... some are useful.* 
+
+.pull-right[
+George Box
+]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.height=3}
+library(ggplot2)
+
+d <- mtcars
+fit <- lm(mpg ~ hp, data = d)
+d$predicted <- predict(fit)   # Save the predicted values
+d$residuals <- residuals(fit) # Save the residual values
+
+ggplot(d, aes(x = hp, y = mpg)) +
+  geom_smooth(method = "lm", se = FALSE, color = "lightgrey") +
+  geom_segment(aes(xend = hp, yend = predicted), alpha = .2) +
+  # > Color adjustments made here...
+  geom_point(aes(color = abs(residuals))) + # Color mapped to abs(residuals)
+  scale_color_continuous(low = "black", high = "red") +  # Colors to use here
+  labs(x = "Measure A", y = "Measure B") +
+  guides(color = FALSE) +  # Color legend removed
+  geom_point(aes(y = predicted), shape = 1) +
+  theme_bw()
+
+```
+
+???
+
+- *All models are wrong*: a simplication of reality
+- How many of you have used a map?
+- The chart shows a simple generalization (linear model, depicted by line) of how a group of people (depicted by points) are related to each other based on scores across 2 measures (x-axis, y-axis)
+- Yet we can see that, while some individuals fit this generalization, some are farther away from it (marked in red)
+- Not all individuals fit into our ideas / preconceptions
+- BUT, using data is a way of keeping our ideas accountable to the facts
+- Would you rather draw a line at random, based on your own preconceptions?
+
+Residuals viz derived from: https://www.r-bloggers.com/visualising-residuals/
 
 ---
-class: center, middle
+class: left, middle
+background-image: url(http://www.publicdomainpictures.net/pictures/180000/velka/fence-from-ice-stick.jpg)
+background-size: 500px
+background-position: 50% 100%
 
-# How do you currently use it?
+# Data ~~Driven~~ Informed
+
+The assessment does **not** prescribe:
+
+- What do you want for your life?
+- Which staff members will support you? 
+- Which types of services do you choose to meet these needs?
+- What setting should services be provided in?
+
+--
+
+*In short*: it is meant to be used **by** people, **not** instead of people
+
 
 ---
-class: center, middle
+class: inverse, left, middle
 
-# How can it be used?
-### At the individual, program and system levels
+# Initial Exploratory Analyses
+
+- [App available here](https://tbdsolutions.shinyapps.io/exploreSIS_node_mdhhs/)
+- [Tutorials here](https://youtu.be/voEbIXUQ-Xg?list=PLrqpLq7US2q123PQozqis_WTQ5WGpEjvY)
+
+???
+
+Caveats: 
+
+- This is a prototype
+- Exploratory, not confirmatory (these do not **prove** anything)
+- Exploration should always be guided by a defined question!
+- Not a complete dataset
+- There are many **more questions** than the ones that led to these...
 
 ---
 background-image: url(http://www.tbdsolutions.com/wp-content/themes/tbdsolutions/images/logo.png)
