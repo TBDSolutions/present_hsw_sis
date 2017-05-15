@@ -1,6 +1,6 @@
 ---
 title: "Person-Centered Measurement"
-author: "using data to inform coordination, advocacy & more"
+author: "Initial Exploration of Michigan SIS Data"
 output:
   xaringan::moon_reader:
     lib_dir: libs
