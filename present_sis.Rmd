@@ -94,6 +94,21 @@ background-size: contain
 ???
 
 - Benchmarking, analysis of variance, clustering: any of these is just a fancy term for admitting that we understand ourselves in relationship to others.
+- Each piece of data exists and gains meaning in relationship to others.  The department's communication to date on how the data should not be used basically boils down to "don't use it by itself" *Inappropriate Use of Assessments and Screening Tools (Letter to PIHP Executive Directors)*.  These are:
+
+* As an arbitrary methodology for determining the amount, scope, and duration of community living supports and skill building services implemented outside of a person-centered planning process.
+* As a means for achieving budget reductions
+* As a process which supplants use of medical necessity criteria for evaluating the need for community living supports, skill building, and other supports and services.
+
+---
+class: center, middle
+
+# How are you using assessment data?
+
+*(find a neighbor and share)*
+
+???
+Find someone you don't know well
 
 ---
 class: inverse, center, middle
