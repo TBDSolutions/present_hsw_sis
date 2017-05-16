@@ -58,7 +58,7 @@ background-size: contain
 
 # ♻ We are habitual. 
 
-### *We fall into patterns, both beautiful and destructive. Math is the science of patterns and analyzing these can help us to understand ourselves.*
+### *We fall into patterns, both beautiful and destructive. Analyzing these can help us to understand ourselves.*
 
 ???
 
@@ -103,7 +103,7 @@ background-size: contain
 ---
 class: center, middle
 
-# How are you using assessment data?
+# How are you using data about people?
 
 *(find a neighbor and share)*
 
@@ -271,7 +271,8 @@ background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5d/Minnes
 background-size: 400px
 background-position: 50% 90%
 
-# Self-determination 
+# Practical Uses
+### Self-determination 
 
 .pull-left[
 includes...
