@@ -16,7 +16,6 @@ options(htmltools.dir.version = FALSE)
 class: inverse, center, bottom
 background-image: url(https://s-media-cache-ak0.pinimg.com/originals/51/fb/fd/51fbfdeb797a21c36b3d928a17867803.jpg)
 
-[bit.ly/sd_assess](https://bit.ly/sd_assess)
 
 ???
 
