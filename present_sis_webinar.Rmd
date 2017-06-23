@@ -1,0 +1,184 @@
+---
+title: "Initial Exploration of Michigan SIS Data"
+author: "Description of Reporting Functionality"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["default","define-fonts.css","my-theme.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+class: inverse, left, top
+background-image: url(http://www.solidbackgrounds.com/images/1680x1050/1680x1050-teal-solid-color-background.jpg)
+background-size: cover
+
+# Today's webinar will:
+
+.large[
+1. Discuss principles for use of assessment data 
+2. Navigate interactive analyses of SIS data
+3. Summarize details of analyses 
+4. Answer questions
+]
+
+*Note:* While access to today's webinar has been shared with various stakeholders to promote transparency, its intended purpose is technical training for PIHP/CMH employees.
+
+Please jot down any questions you have during the webinar and submit them in the attendee control panel.
+
+---
+
+class: left, top
+
+# Use the Data...
+
+.large[
+MDHHS-BHDDA has identified several broad areas for use of assessment data:<sup>1</sup>
+
+* in **Person-Centered Planning**
+* in **Benefit Management**
+* to **Assure Service Access and Equity**
+* to **Understand Population-level Needs**
+* in **Advocacy efforts**
+
+Different roles have different uses.
+]
+
+.footnote[
+[1] *See detailed discussion in white paper on [Uses of Assessment Data to Inform Services and Supports for Individuals with Intellectual and Developmental Disabilities](http://www.tbdsolutions.com/papers-presentations-2/)
+]*
+
+???
+
+**Person-centered planning:**
+- Recommend individual support needs to inform an individualized plan of service (IPOS)
+- Identify potential goals and objectives for inclusion in the IPOS
+- Identify potential referrals for additional assessments or relevant services
+- Help guide safety planning by identifying areas of risk
+- Design an individualized menu of services to support an individual to live independently in the community
+- Identify individual strengths for inclusion in the IPOS
+- Provide guidance regarding supports which may provide alternatives to guardianship
+- Identify areas of specific personal interest or areas on which the individual wishes to focus
+
+**Benefit management:**
+
+- Inform the development of provider network service offerings.
+- Evaluate provider network adequacy relative to the specific needs of the population in a given area.
+- Identify locations to make services available for individuals within an accessible distance from their homes.
+- Forecast needs for services not yet available.
+- Provide consistently-formatted guidance to service providers related to the scope, duration and intensity of services authorized by the IPOS.
+- Assist providers to develop an enhanced array of services to support compliance with the HCBS Final Rule.
+
+**Equity of access:**
+
+- Ensure people receive the services they need
+- Identify services inconsistent with assessed needs
+- Inform the prioritization of access to available waiver slots
+
+
+---
+
+class: inverse, left, top
+background-image: url(http://www.solidbackgrounds.com/images/1680x1050/1680x1050-brown-web-solid-color-background.jpg)
+background-size: cover
+
+# Don't Use it to...
+
+MDHHS-BHDDA has clarified several uses of the resulting data which are not permitted.<sup>1</sup>  These are:
+
+* .large[**Go Outside of PCP Process.**] As an arbitrary methodology for determining the amount, scope, and duration of community living supports and skill building services implemented outside of a person-centered planning process.
+* .large[**Reduce Budgets.**] As a means for achieving budget reductions.
+* .large[**Replace Medical Necessity Criteria.**] As a process which supplants use of medical necessity criteria for evaluating the need for community living supports, skill building, and other supports and services.
+
+.footnote[
+[1] Renwick, T. (2015, October 22). *Inappropriate Use of Assessments and Screening Tools* (Letter to PIHP Executive Directors).
+]
+
+???
+
+---
+
+class: left, top
+background-image: url(https://www.beautycolorcode.com/86becb-1280x1024.png)
+background-size: cover
+
+# What's in the data? 
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+needs <- read.csv("C:/Users/joshh/Documents/GitHub/exploreSIS_node_mshn/data/needs.csv")
+```
+
+The *Supports Intensity Scale* assessment includes the following areas: `r paste(unique(needs$section_desc),sep = '',collapse = ', ')`
+
+Here's a list of all the fields in each area:
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+needs %>%
+  select(section_desc, item_desc) %>%
+  DT::datatable(
+    rownames = FALSE,
+    colnames = c('Section Name','Item Name'),
+    fillContainer = FALSE, 
+    extensions = 'Scroller',
+    options = list(#pageLength = 5, 
+                   dom = 't',
+                   deferRender = F,
+                   scrollY = 200,
+                   scroller = TRUE))
+```
+
+---
+
+class: left, top
+background-image: url(https://www.beautycolorcode.com/86becb-1280x1024.png)
+background-size: cover
+
+# Exploring the data
+
+The initial analyses available include:
+
+- .large[**Productivity.**] Rate of assessment completion compared to implementation date.
+- .large[**Population Summary, Medical/Behavioral.**] Summary of scores across the major sections of the assessment tool.
+- .large[**Patterns of Need.**] Identify groups of people with similar combinations of needs.
+- .large[**Use in Planning.**] Sample views to inform use of assessment data in individual planning.
+
+You can filter by *PIHP*, *CMHSP* and *Date Range*.
+
+???
+
+Caveats: 
+
+- This is a prototype
+- Exploratory, not confirmatory (these do not **prove** anything)
+- Exploration should always be guided by a defined question!
+- Not a complete dataset
+- There are many **more questions** than the ones that led to these...
+
+---
+class: inverse, left, top
+
+# Let's go
+
+.large[
+- White paper available [here](http://www.tbdsolutions.com/papers-presentations-2/)
+- Analyses available [here](https://tbdsolutions.shinyapps.io/exploreSIS_node_mdhhs/)
+- Tutorials stored [here](https://youtu.be/voEbIXUQ-Xg?list=PLrqpLq7US2q123PQozqis_WTQ5WGpEjvY)
+]
+
+---
+class: inverse, center, middle
+background-image: url(http://www.asalesguy.com/wp-content/uploads/2016/09/Question-marks-1.jpg)
+background-size: cover
+
+
+### Q & A
+
+
+---
+background-image: url(http://www.tbdsolutions.com/wp-content/themes/tbdsolutions/images/logo.png)
+
