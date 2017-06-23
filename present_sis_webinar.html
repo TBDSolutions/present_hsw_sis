@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Initial Exploration of Michigan SIS Data</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Description of Reporting Functionality" />
+    <link href="libs/remark-css/example.css" rel="stylesheet" />
+    <script src="libs/htmlwidgets/htmlwidgets.js"></script>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/datatables-binding/datatables.js"></script>
+    <link href="libs/dt-core/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="libs/dt-core/css/jquery.dataTables.extra.css" rel="stylesheet" />
+    <script src="libs/dt-core/js/jquery.dataTables.min.js"></script>
+    <link href="libs/dt-ext-scroller/css/scroller.dataTables.min.css" rel="stylesheet" />
+    <script src="libs/dt-ext-scroller/js/dataTables.scroller.min.js"></script>
+    <link rel="stylesheet" href="define-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="my-theme.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Initial Exploration of Michigan SIS Data
+### Description of Reporting Functionality
+
+---
+
+
+
+
+class: inverse, left, top
+background-image: url(http://www.solidbackgrounds.com/images/1680x1050/1680x1050-teal-solid-color-background.jpg)
+background-size: cover
+
+# Today's webinar will:
+
+.large[
+1. Discuss principles for use of assessment data 
+2. Navigate interactive analyses of SIS data
+3. Summarize details of analyses 
+4. Answer questions
+]
+
+*Note:* While access to today's webinar has been shared with various stakeholders to promote transparency, its intended purpose is technical training for PIHP/CMH employees.
+
+Please jot down any questions you have during the webinar and submit them in the attendee control panel.
+
+---
+
+class: left, top
+
+# Use the Data...
+
+.large[
+MDHHS-BHDDA has identified several broad areas for use of assessment data:&lt;sup&gt;1&lt;/sup&gt;
+
+* in **Person-Centered Planning**
+* in **Benefit Management**
+* to **Assure Service Access and Equity**
+* to **Understand Population-level Needs**
+* in **Advocacy efforts**
+
+Different roles have different uses.
+]
+
+.footnote[
+[1] *See detailed discussion in white paper on [Uses of Assessment Data to Inform Services and Supports for Individuals with Intellectual and Developmental Disabilities](http://www.tbdsolutions.com/papers-presentations-2/)
+]*
+
+???
+
+**Person-centered planning:**
+- Recommend individual support needs to inform an individualized plan of service (IPOS)
+- Identify potential goals and objectives for inclusion in the IPOS
+- Identify potential referrals for additional assessments or relevant services
+- Help guide safety planning by identifying areas of risk
+- Design an individualized menu of services to support an individual to live independently in the community
+- Identify individual strengths for inclusion in the IPOS
+- Provide guidance regarding supports which may provide alternatives to guardianship
+- Identify areas of specific personal interest or areas on which the individual wishes to focus
+
+**Benefit management:**
+
+- Inform the development of provider network service offerings.
+- Evaluate provider network adequacy relative to the specific needs of the population in a given area.
+- Identify locations to make services available for individuals within an accessible distance from their homes.
+- Forecast needs for services not yet available.
+- Provide consistently-formatted guidance to service providers related to the scope, duration and intensity of services authorized by the IPOS.
+- Assist providers to develop an enhanced array of services to support compliance with the HCBS Final Rule.
+
+**Equity of access:**
+
+- Ensure people receive the services they need
+- Identify services inconsistent with assessed needs
+- Inform the prioritization of access to available waiver slots
+
+
+---
+
+class: inverse, left, top
+background-image: url(http://www.solidbackgrounds.com/images/1680x1050/1680x1050-brown-web-solid-color-background.jpg)
+background-size: cover
+
+# Don't Use it to...
+
+MDHHS-BHDDA has clarified several uses of the resulting data which are not permitted.&lt;sup&gt;1&lt;/sup&gt;  These are:
+
+* .large[**Go Outside of PCP Process.**] As an arbitrary methodology for determining the amount, scope, and duration of community living supports and skill building services implemented outside of a person-centered planning process.
+* .large[**Reduce Budgets.**] As a means for achieving budget reductions.
+* .large[**Replace Medical Necessity Criteria.**] As a process which supplants use of medical necessity criteria for evaluating the need for community living supports, skill building, and other supports and services.
+
+.footnote[
+[1] Renwick, T. (2015, October 22). *Inappropriate Use of Assessments and Screening Tools* (Letter to PIHP Executive Directors).
+]
+
+???
+
+---
+
+class: left, top
+background-image: url(https://www.beautycolorcode.com/86becb-1280x1024.png)
+background-size: cover
+
+# What's in the data? 
+
+
+
+The *Supports Intensity Scale* assessment includes the following areas: Medical Supports, Behavioral Supports, Home Living, Community Living, Lifelong Learning, Employment, Health and Safety, Social Activities, Protection and Advocacy
+
+Here's a list of all the fields in each area:
+<div id="htmlwidget-652c1c73eb849333e5fc" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-652c1c73eb849333e5fc">{"x":{"filter":"none","extensions":["Scroller"],"fillContainer":false,"data":[["Medical Supports","Medical Supports","Medical Supports","Medical Supports","Medical Supports","Medical Supports","Medical Supports","Medical Supports","Medical Supports","Medical Supports","Medical Supports","Medical Supports","Medical Supports","Medical Supports","Medical Supports","Medical Supports","Medical Supports","Medical Supports","Medical Supports","Behavioral Supports","Behavioral Supports","Behavioral Supports","Behavioral Supports","Behavioral Supports","Behavioral Supports","Behavioral Supports","Behavioral Supports","Behavioral Supports","Behavioral Supports","Behavioral Supports","Behavioral Supports","Behavioral Supports","Home Living","Home Living","Home Living","Home Living","Home Living","Home Living","Home Living","Home Living","Community Living","Community Living","Community Living","Community Living","Community Living","Community Living","Community Living","Community Living","Lifelong Learning","Lifelong Learning","Lifelong Learning","Lifelong Learning","Lifelong Learning","Lifelong Learning","Lifelong Learning","Lifelong Learning","Lifelong Learning","Employment","Employment","Employment","Employment","Employment","Employment","Employment","Employment","Health and Safety","Health and Safety","Health and Safety","Health and Safety","Health and Safety","Health and Safety","Health and Safety","Health and Safety","Social Activities","Social Activities","Social Activities","Social Activities","Social Activities","Social Activities","Social Activities","Social Activities","Protection and Advocacy","Protection and Advocacy","Protection and Advocacy","Protection and Advocacy","Protection and Advocacy","Protection and Advocacy","Protection and Advocacy","Protection and Advocacy"],["Oxygen therapy","Infection control","Seizure management","Dialysis","Ostomy Care","Transferring","Therapy services","Hypertension","Allergies","Diabetes","Other Medical (1st)","Postural drainage","Chest PT","Suctioning","Oral Stimulation","Tube feeding","Parenteral feeding","Positioning","Wound dressing","Assault","Wandering","Substance abuse","Mental health","Other Behavioral (1st)","Property destruction","Stealing","Self-injury","Ingestion","Suicide attempts","Sexual aggression","Sexually inappropriate","Outbursts","Home appliances","Personal hygiene","Toilet","Dressing","Preparing food","Eating Food","Laundry","Housekeeping","Transportation","Recreation","Preferred Activities","Accessing public settings","Using public services","Shopping","Community interaction","Visit Friends/Family","Learning problem-solving","Learning functional skills","Learning health skills","Learning self-determination","Learning self-management","Educational decisions","Accessing education","Interaction during learning","Learning with technology","Learning job skills","Accessing accommodations","Coworker interaction","Supervisor interaction","Work speed","Work quality","Changing job assignments","Seeking employer assistance","Taking medications","Moving about","Avoiding hazards","Obtaining health care","Accessing emergency svs","Nutrition and diet","Physical fitness","Emotional well-being","Social skills","Recreation/Leisure","Socializing outside","Friendship","Intimate relationships","Socializing at home","Communicating needs","Volunteering","Self-advocacy","Decision making","Avoiding exploitation","Civic responsibility","Advocacy participation","Legal services","Financial management","Advocating for others"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Section Name<\/th>\n      <th>Item Name<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","deferRender":false,"scrollY":200,"scroller":true,"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+
+---
+
+class: left, top
+background-image: url(https://www.beautycolorcode.com/86becb-1280x1024.png)
+background-size: cover
+
+# Exploring the data
+
+The initial analyses available include:
+
+- .large[**Productivity.**] Rate of assessment completion compared to implementation date.
+- .large[**Population Summary, Medical/Behavioral.**] Summary of scores across the major sections of the assessment tool.
+- .large[**Patterns of Need.**] Identify groups of people with similar combinations of needs.
+- .large[**Use in Planning.**] Sample views to inform use of assessment data in individual planning.
+
+You can filter by *PIHP*, *CMHSP* and *Date Range*.
+
+???
+
+Caveats: 
+
+- This is a prototype
+- Exploratory, not confirmatory (these do not **prove** anything)
+- Exploration should always be guided by a defined question!
+- Not a complete dataset
+- There are many **more questions** than the ones that led to these...
+
+---
+class: inverse, left, top
+
+# Let's go
+
+.large[
+- White paper available [here](http://www.tbdsolutions.com/papers-presentations-2/)
+- Analyses available [here](https://tbdsolutions.shinyapps.io/exploreSIS_node_mdhhs/)
+- Tutorials stored [here](https://youtu.be/voEbIXUQ-Xg?list=PLrqpLq7US2q123PQozqis_WTQ5WGpEjvY)
+]
+
+---
+class: inverse, center, middle
+background-image: url(http://www.asalesguy.com/wp-content/uploads/2016/09/Question-marks-1.jpg)
+background-size: cover
+
+
+### Q &amp; A
+
+
+---
+background-image: url(http://www.tbdsolutions.com/wp-content/themes/tbdsolutions/images/logo.png)
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
