@@ -1,0 +1,369 @@
+---
+title: "Person-Centered Measurement"
+author: "using data to inform coordination, advocacy & more"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["default","define-fonts.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+class: inverse, center, bottom
+background-image: url(https://s-media-cache-ak0.pinimg.com/originals/51/fb/fd/51fbfdeb797a21c36b3d928a17867803.jpg)
+
+[bit.ly/sd_assess](https://bit.ly/sd_assess)
+
+???
+
+- Great art project which had all attendees mark their height on a wall, until the names covered each other up.
+- Data is made up of individuals, and measurement based care will fail if it does not make information meaningful at the individual level as well as in the aggregate.
+
+---
+background-image: url(http://www.publicdomainpictures.net/pictures/180000/velka/hand-on-white-1465803361587.jpg)
+background-size: contain
+
+# ✋ Why measure?
+
+???
+
+- People often talk as if measurement is dehumanizing, but it's an ancient activity
+- Since ancient Babylon/Egypt
+- Length was first measured with the body itself (forearm, hand, or finger)
+- It is one of the ways we relate to the world we live in
+
+---
+class: inverse, center, bottom
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b3/Water_texture_1390894_Nevit.jpg)
+background-size: contain
+
+# ≋ We change. 
+
+### *We pencil marks on doorways to track our growth, and then our children’s growth. We want to change for the better, to know that we are moving toward our goals.*
+
+???
+
+- If we didn't change, there would be little need to measure.
+- Even in a habilitative context, there are changes in supports, preferences, personal priorities.
+
+---
+class: inverse, center, bottom
+background-image: url(https://static.pexels.com/photos/8408/player-vinyl.jpg)
+background-size: contain
+
+# ♻ We are habitual. 
+
+### *We fall into patterns, both beautiful and destructive. Math is the science of patterns and analyzing these can help us to understand ourselves.*
+
+???
+
+- A wise approach to working with populations balances hope for the future with a realistic look at the past.
+- If we know that people will continue to have similar clusters of concerns, how can be be forward thinking in preparing the provider network to meet their needs?
+- Need to understand habits to manage change.  **If you are trying to change weight/spending/etc. do you (a) stop measuring it or (b) measure it more purposefully?**
+- Example: people with aging parents.  What clusters of needs do they have and is the provider network equipped to provide for and coordinate those needs?
+
+---
+class: inverse, center, bottom
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/1814ThompsonMap.jpg/1280px-1814ThompsonMap.jpg)
+background-size: contain
+
+# ◎ We are curious
+
+### *We want to know the causes of things; how things fit together. We want our knowledge to be concrete, to be tangible.*
+
+???
+
+- We love stories, but we want to be able to multiply those stories to make needs tangible to legislators and others who allocate resources for supports and services
+- Not content with anecdotes alone, we seek other objective ways of understanding the impact of our lives' work
+
+---
+class: inverse, center, bottom
+background-image: url(http://maxpixel.freegreatpicture.com/static/photo/1x/Holding-Hands-Circle-Of-Friends-858005.jpg)
+background-size: contain
+
+# ☍ We are relational
+
+### *We exist in context, in proportion. We share stories about our similar experiences. We want to measure ourselves against each other and against our own pasts.*
+
+???
+
+- Benchmarking, analysis of variance, clustering: any of these is just a fancy term for admitting that we understand ourselves in relationship to others.
+
+---
+class: inverse, center, middle
+background-image: url(https://c1.staticflickr.com/4/3298/3455044234_6397794593_b.jpg)
+background-size: contain
+
+# ⏪  How we got here
+
+???
+
+- History of Assessment (think DSM-1 era, very clinician centered, low reliability)
+- Current psychosocial is often histories
+- Most common measures have been physical: used in PT, OT
+- SIS moves field into a more sophisticated approach to assessment, allowing real-world needs to be integrated into a structured assessment process
+
+Common terminology can lead to:
+- better communication (e.g. **imagine new supports coordinator inheriting caseload**)
+- greater equity (e.g. **if diagnosis is left to personal bias it has historically varied based on race, gender, etc.**)
+
+---
+class: inverse, center, middle
+background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSCimIGh2bXV7uYWnw_0cbwfVpoJXITfjKZM6KQBXaQ04cQFgXI)
+background-size: 150px
+background-position: 8% 90%
+
+> ### ...while a single glance may suffice 
+> ### for clinical diagnosis, if we hope to 
+> ### understand the... individual, nothing 
+> ### less than a total biography will do.
+
+.pull-right[
+Oliver Sacks, *An Anthropologist on Mars*
+]
+
+???
+
+- Quote from neurologist Oliver Sacks essays on autism
+
+Reality check: 
+- an assessment cannot encapsulate an entire person
+- Assessors role is an objective, point-in-time picture [viz: photograph]
+
+- Yet we must act to support people based on knowledge that is always partial, yet growing
+- Assessment should be practical and applied rather than put on a shelf
+
+---
+class: center, top
+background-image: url(https://c1.staticflickr.com/5/4116/4889471879_ce34dcbd0a_b.jpg)
+background-size: contain
+# ▤  ▶  ☑
+
+### *story into action*
+
+???
+
+- Understanding is not enough if it is not used to help
+- Linking history/observation to action... 
+- Creates common language that frames history and helps to imagine a future for the person
+- Let's look at a few examples...
+
+
+---
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5d/Minnesota_State_Capitol_Woodworkers_Toolbox_Historical_Society.jpg)
+background-size: 400px
+background-position: 50% 90%
+
+# Self-determination 
+
+.pull-left[
+includes...
+- self-awareness
+- goal setting
+- decision making
+- problem solving 
+- self-advocacy
+]
+
+--
+
+.pull-right[
+*supported by...*
+- *understanding patterns*
+- *transform needs to hopes*
+- *clearly frame options*
+- *generate tangible ideas*
+- *use a common language*
+]
+
+???
+
+- Core components of self-determination... and how data from the assessment might be used to complement these...
+
+---
+
+## Including 
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+needs <- read.csv("C:/Users/joshh/Documents/GitHub/exploreSIS_node_mshn/data/needs.csv")
+```
+
+The *Supports Intensity Scale* assessment includes the following areas: `r paste(unique(needs$section_desc),sep = '',collapse = ', ')`
+
+Here's a list of all the fields in each area:
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+needs %>%
+  select(section_desc, item_desc) %>%
+  DT::datatable(
+    rownames = FALSE,
+    colnames = c('Section Name','Item Name'),
+    fillContainer = FALSE, 
+    extensions = 'Scroller',
+    options = list(#pageLength = 5, 
+                   dom = 't',
+                   deferRender = F,
+                   scrollY = 200,
+                   scroller = TRUE))
+```
+
+
+---
+class: center, middle
+
+## Data ~~Driven~~ Informed
+
+### *All models are wrong... some are useful.* 
+
+.pull-right[
+George Box
+]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.height=3}
+library(ggplot2)
+
+d <- mtcars
+fit <- lm(mpg ~ hp, data = d)
+d$predicted <- predict(fit)   # Save the predicted values
+d$residuals <- residuals(fit) # Save the residual values
+
+ggplot(d, aes(x = hp, y = mpg)) +
+  geom_smooth(method = "lm", se = FALSE, color = "lightgrey") +
+  geom_segment(aes(xend = hp, yend = predicted), alpha = .2) +
+  # > Color adjustments made here...
+  geom_point(aes(color = abs(residuals))) + # Color mapped to abs(residuals)
+  scale_color_continuous(low = "black", high = "red") +  # Colors to use here
+  labs(x = "Measure A", y = "Measure B") +
+  guides(color = FALSE) +  # Color legend removed
+  geom_point(aes(y = predicted), shape = 1) +
+  theme_bw()
+
+```
+
+???
+
+- *All models are wrong*: a simplication of reality
+- How many of you have used a map?
+- The chart shows a simple generalization (linear model, depicted by line) of how a group of people (depicted by points) are related to each other based on scores across 2 measures (x-axis, y-axis)
+- Yet we can see that, while some individuals fit this generalization, some are farther away from it (marked in red)
+- Not all individuals fit into our ideas / preconceptions
+- BUT, using data is a way of keeping our ideas accountable to the facts
+- Would you rather draw a line at random, based on your own preconceptions?
+
+Residuals viz derived from: https://www.r-bloggers.com/visualising-residuals/
+
+---
+class: center, middle
+background-image: url(http://www.publicdomainpictures.net/pictures/180000/velka/fence-from-ice-stick.jpg)
+background-size: 500px
+background-position: 50% 100%
+
+## Data ~~Driven~~ Informed
+
+The assessment does **not** prescribe:
+
+- Which staff members will support the person? 
+- Which supports should help meet these needs?
+- What setting should services be provided in?
+
+--
+
+*In short*: it is meant to be used **by** people, **not** instead of people
+
+---
+class: inverse, center, middle
+
+# Practical Uses
+
+### Connecting to Person-Centered Planning
+```{r eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE, out.height=3}
+library(dplyr); library(DT); library(RColorBrewer)
+
+DT_in <- read.csv("df.csv")
+DT_in <- DT_in %>% select(-X)
+
+DT_in %>%
+  datatable(rownames = F,
+            colnames = c('Area','Need','Score','Type of Support','Frequency',
+                         'Daily Support Time','Important To/For'),
+            fillContainer = FALSE, 
+            extensions = 'Scroller',
+            options = list(dom = 't',
+                   deferRender = F,
+                   scrollY = 200,
+                   scroller = TRUE)) %>%
+  formatStyle('score', color = styleInterval(c(6), c("#800026","#ffffcc")),
+              backgroundColor = styleInterval(c(1:8), brewer.pal(9,"YlOrRd")))
+
+```
+
+???
+
+- Can focus on items endorsed by the person and their supports as important
+- Consider how closely these are aligned with scope, intensity, duration
+- Could use relevant areas to prompt consideration of potential referrals to PT, nursing, OT, etc.
+
+---
+class: inverse, center, middle
+
+# Practical Uses
+
+### Mapping locations
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width='100%', fig.height=6, eval=require('leaflet')}
+library(leaflet); library(dplyr)
+
+lat <- rnorm(700, mean = 43.2, sd = 1)
+lon <- rnorm(700, mean = -84.5, sd = 0.4)
+geocoded <- data.frame(lat,lon) 
+
+leaflet() %>%
+  fitBounds(
+    lng1 = -86,  
+    lat1 = 44,
+    lng2 = -85,
+    lat2 = 42
+  ) %>%
+  addProviderTiles("CartoDB.Positron") %>%
+  addMarkers(
+    data = geocoded,
+    lat = ~lat, 
+    lng = ~lon,
+    clusterOptions = markerClusterOptions()
+  )
+
+```
+
+???
+
+- What if we could identify the geographic areas where people with a certain set of needs were clustered, so that we could build services to be more easily accessible to the people who need them?
+
+---
+class: inverse, center, middle
+background-image: url(http://www.publicdomainpictures.net/pictures/20000/velka/out-of-focus-christmas-lights-110661300064982U8c.jpg)
+background-size: contain
+
+# And... Focus
+
+---
+class: center, middle
+
+# What has your experience been?
+
+---
+class: center, middle
+
+# How do you currently use it?
+
+---
+class: center, middle
+
+# How can it be used?
+### At the individual, program and system levels
+
+---
+background-image: url(http://www.tbdsolutions.com/wp-content/themes/tbdsolutions/images/logo.png)
+
