@@ -59,7 +59,7 @@ background-size: cover
 
 Please jot down any questions you have during the webinar and submit them in the attendee control panel.
 
-Slides here: http://bit.ly/sis_webinar_201706
+Slides here: [bit.ly/sis_webinar_201706](http://bit.ly/sis_webinar_201706)
 
 ---
 class: left, top
