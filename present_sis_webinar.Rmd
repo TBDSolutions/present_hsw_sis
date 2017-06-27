@@ -1,5 +1,5 @@
 ---
-title: "Initial Exploration of Michigan SIS Data"
+title: "Initial Exploration of Michigan SIS<sup>®</sup> Data"
 author: "Description of Reporting Functionality"
 output:
   xaringan::moon_reader:
@@ -50,7 +50,7 @@ background-size: cover
 
 .large[
 1. Discuss principles for use of assessment data 
-2. Navigate interactive analyses of SIS data
+2. Navigate interactive analyses of SIS<sup>®</sup> data
 3. Summarize details of analyses 
 4. Answer questions
 ]
@@ -144,7 +144,7 @@ library(dplyr)
 needs <- read.csv("C:/Users/joshh/Documents/GitHub/exploreSIS_node_mshn/data/needs.csv")
 ```
 
-The *Supports Intensity Scale* assessment includes the following areas: `r paste(unique(needs$section_desc),sep = '',collapse = ', ')`
+The *Supports Intensity Scale*<sup>®</sup> assessment includes the following areas: `r paste(unique(needs$section_desc),sep = '',collapse = ', ')`
 
 Here's a list of all the fields in each area:
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
