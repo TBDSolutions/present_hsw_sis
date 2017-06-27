@@ -82,6 +82,9 @@ MDHHS-BHDDA has identified several broad areas for use of assessment data:<sup>1
 
 ???
 
+Different roles require different uses of data.
+And different interpretations of it (*e.g. weather data interpreted by a farmer, bike messenger, tourist*)
+
 **Person-centered planning:**
 - Recommend individual support needs to inform an individualized plan of service (IPOS)
 - Identify potential goals and objectives for inclusion in the IPOS
@@ -158,6 +161,14 @@ needs %>%
                    scrollY = 200,
                    scroller = TRUE))
 ```
+
+???
+
+Around 500 data points.
+
+Compared with other common data sources, e.g. claims:
+- More detailed (allows much deeper view into individual needs and attributes than a claim)
+- Less frequent (requires thoughtful interpretation of items that change, such as *important to/for*)
 
 ---
 
