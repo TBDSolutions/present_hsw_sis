@@ -21,6 +21,8 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 
 <i class="fa fa-sitemap"></i> Departmental Analyst
 
+<i class="fa fa-envelope-o"></i> peckinpaugha@michigan.gov
+
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="300px"}
 knitr::include_graphics("MDHHS-logo.jpg")
 ```
@@ -30,6 +32,8 @@ knitr::include_graphics("MDHHS-logo.jpg")
 <i class="fa fa-commenting"></i> Josh Hagedorn
 
 <i class="fa fa-sitemap"></i> Chief Knowledge Officer
+
+<i class="fa fa-envelope-o"></i> joshh@tbdsolutions.com
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="250px"}
 knitr::include_graphics("tbdSolutions-logo.png")
