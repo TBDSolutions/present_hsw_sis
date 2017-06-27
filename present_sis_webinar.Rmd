@@ -10,6 +10,13 @@ output:
       highlightLines: true
 ---
 
+# Welcome
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="200px"}
+knitr::include_graphics("http://www.tbdsolutions.com/wp-content/themes/tbdsolutions/images/logo.png")
+```
+
+---
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 ```
